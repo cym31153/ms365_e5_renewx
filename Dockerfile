@@ -19,7 +19,7 @@ ENV LANG=zh_CN.UTF-8 \
 
 WORKDIR /renewx
 
-EXPOSE 1066
+EXPOSE 80
 
 COPY --from=ontology /renewx /renewx
 
